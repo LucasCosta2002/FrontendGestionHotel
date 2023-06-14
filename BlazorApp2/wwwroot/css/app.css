@@ -63,10 +63,22 @@ a, .btn-link {
         content: "An error has occurred."
     }
 
-
+.bg-fondo{
+    background-color: #e1e1e1 !important;
+}
 
 .bg-primario {
     background-color: #265DAE;
+}
+
+.bg-rojo-card {
+    background-color: #E53232 !important;
+}
+.bg-verde-card {
+    background-color: #38CB35 !important;
+}
+.bg-lila-card {
+    background-color: #9327D6 !important;
 }
 
 .logo {
@@ -88,4 +100,15 @@ a, .btn-link {
 .reparacion {
     font-weight: 900;
     color: #9327D6;
+}
+
+.font-xs{
+    font-size: 12px;
+}
+
+.border-radius {
+    border-radius: 0.75rem;
+}.border-radius-top {
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
 }
